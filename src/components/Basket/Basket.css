@@ -1,0 +1,35 @@
+.basketModal{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 101;
+}
+.basketFon{
+    width: 350px;
+    height: 100vh;
+    background-color: #5F46AE;
+    position: absolute;
+    right: 0;
+    z-index: 101;
+}
+.basketFonChild{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 10px;
+}
+.x{
+    height: 15px;
+    cursor: pointer;
+}
+.basketFonChild div{
+    color: white;
+    margin-top: 25px;
+}
+.bas{
+    margin-top: 20px;
+}
