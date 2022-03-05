@@ -1,0 +1,103 @@
+.main{
+    height: 100vh;
+    background-image: url('../../assets/main.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.fon{
+    height: 100vh;
+    background-image: url('../../assets/fon.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.header{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.headerLogo{
+    width: 100px;
+}
+.headerBlock{
+    display: flex;
+}
+.headerContent{
+    text-align: center;
+    margin: 0px 40px;
+}
+.headerContent div{
+     font-size: 18px;
+     color: #4EC37F;
+}
+.headerContent span{
+    color: white;
+}
+.sectionContentBlock{
+    margin-top: 300px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+.foods{
+    width: 150px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 100;
+}
+.foods:hover{
+    transform: scale(1.5);
+    transition: 0.3s;
+}
+.footerBlock{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footerBlock img{
+    position: absolute;
+    bottom: 0;
+}
+.sectionContent{
+    position: relative;
+}
+.cost{
+    position: absolute;
+    bottom: -13px;
+    left: 10px;
+}
+.sectionText{
+    position: absolute;
+    top: 200px;
+    left: -55px;
+    width: 300px;
+    color: white;
+}
+.sectionBtn{
+    position: absolute;
+    top: 230px;
+    width: 150px;
+    height: 40px;
+    background-color: #4EC37F;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.costnone{
+    display: none;
+}
